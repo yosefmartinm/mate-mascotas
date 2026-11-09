@@ -1118,7 +1118,7 @@ Games.g3={start(){
         qte.o.remove();qte=null;tl-=insulPen;SFX.play('bad');
         say(`La chispa dañó la placa: -${insulPen}s`,'bad');
       }
-    }else if(Math.random()<0.001)startQTE();
+    }else if(Math.random()<0.00001)startQTE();
 
     if(freezeTimer>0)freezeTimer-=.1;
     else tl-=.1;
